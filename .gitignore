@@ -1,0 +1,4 @@
+/target/
+
+eslint.config.mjs
+prettier.config.mjs

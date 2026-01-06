@@ -1,0 +1,18 @@
+[package]
+name = "biome-eject"
+version = "0.1.0"
+edition = "2024"
+authors = ["Naoki Ikeguchi <me@s6n.jp"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/siketyan/biome-eject"
+
+[dependencies]
+biome_analyze = { git = "https://github.com/biomejs/biome.git", rev = "957cd8e83cf543db300dba9fc85e52a3ef6226b5" }
+biome_configuration = { git = "https://github.com/biomejs/biome.git", rev = "957cd8e83cf543db300dba9fc85e52a3ef6226b5" }
+biome_diagnostics = { git = "https://github.com/biomejs/biome.git", rev = "957cd8e83cf543db300dba9fc85e52a3ef6226b5" }
+biome_rowan = { git = "https://github.com/biomejs/biome.git", rev = "957cd8e83cf543db300dba9fc85e52a3ef6226b5" }
+biome_js_analyze = { git = "https://github.com/biomejs/biome.git", rev = "957cd8e83cf543db300dba9fc85e52a3ef6226b5" }
+biome_js_factory = { git = "https://github.com/biomejs/biome.git", rev = "957cd8e83cf543db300dba9fc85e52a3ef6226b5" }
+biome_js_formatter = { git = "https://github.com/biomejs/biome.git", rev = "957cd8e83cf543db300dba9fc85e52a3ef6226b5" }
+biome_js_syntax = { git = "https://github.com/biomejs/biome.git", rev = "957cd8e83cf543db300dba9fc85e52a3ef6226b5" }
+serde_json = "1.0.148"
