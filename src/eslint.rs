@@ -347,7 +347,7 @@ pub(crate) fn write_eslint_config(registry: &RuleRegistry, config: &Configuratio
         make::token(T!['}']),
     );
 
-    // import { defineConfig } from "eslint";
+    // import { defineConfig } from "eslint/config";
     imports.push(
         make::js_import(
             make::token_with_trailing_space(T![import]),
@@ -365,7 +365,7 @@ pub(crate) fn write_eslint_config(registry: &RuleRegistry, config: &Configuratio
                     make::token_with_leading_space(T!['}']),
                 ),
                 make::token_decorated_with_space(T![from]),
-                make::js_module_source(make::js_string_literal("eslint")).into(),
+                make::js_module_source(make::js_string_literal("eslint/config")).into(),
             )
             .build()
             .into(),
